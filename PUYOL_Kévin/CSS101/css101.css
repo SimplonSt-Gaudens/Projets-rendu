@@ -1,0 +1,29 @@
+body{
+	background-color : #B0B0B0;
+	}
+
+	p{
+font-size: 22px;
+font-family: Times;	
+	}
+
+	h1{color: blueviolet;
+text-align: center;
+font-size: 40px;	
+border: solid blueviolet;
+	}
+	
+	h2{color: red;
+	text-align:center; 
+	font-size: 28 px;
+	}
+img{
+	width: 1340px;
+	height: 400px;
+}
+
+h1{
+border: 2px solid blueviolet;
+height: 90px;
+padding-top: 30px;
+}
