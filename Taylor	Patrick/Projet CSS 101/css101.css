@@ -1,0 +1,21 @@
+p {
+  font-size: 22px;
+}
+h1 {
+  color: blue;
+  border: solid;
+  text-align: center;
+  padding: 30px;
+}
+h2 {
+  color: red;
+  text-align: center;
+}
+body {
+  background-color: #B0B0B0;
+}
+img {
+  width: 100%;
+  length: 100%;
+  display: block;
+}

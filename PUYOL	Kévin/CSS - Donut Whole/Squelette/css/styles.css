@@ -1,0 +1,233 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   background-image: url('images/bg-tile.gif');
+}
+
+.container {
+
+}
+
+
+/* Typography */
+
+h1, h2 {
+color: orange;
+font-family: Love Ya Like A Sister;
+}
+
+h1 {
+text-align: center;
+background-image: url('images/header-divider.png');
+background-repeat: no-repeat;
+background-position: center;
+height: 90px;
+
+}
+
+h1 em {
+color: black;
+
+}
+
+h2 {
+	
+
+}
+
+h3 {
+
+
+}
+
+p.lead {
+font-size: 30px;
+text-align: center;
+
+}
+
+p {
+
+}
+
+a:link, a:visited {
+color: #d17f38;
+}
+
+a:hover {
+
+}
+
+hr {
+
+}
+
+
+/* Header */
+
+header nav {
+background-image: url('images/tiny-donut.png');
+background-repeat: no-repeat;
+}
+
+header nav ul {
+display: flex;
+justify-content:space-around;
+align-items: center;
+margin: auto;
+width: 900px;
+}
+
+header nav ul li {
+display: inline;
+}
+
+header nav ul li a {
+text-decoration: none;
+color: #d17f38;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul li#logo a {
+background-image: url('images/logo.png');
+text-indent: -9999px;
+background-repeat: no-repeat;
+height: 150px;
+width: 300px;
+display: inline-flex;
+background-position: center;
+}
+
+header nav ul li#logo a:hover {
+background-image: url('images/logo-hover.png'
+);
+}
+
+
+/* Hero */
+
+#hero {
+background-image:url('images/bg-tile-yellow.gif');
+padding-left: 25%;
+
+}
+
+#hero .container {
+background-image: url('images/fresh-whole-ingredients.png');
+background-repeat: no-repeat;
+text-align: center;
+
+}
+
+#hero .large-ribbon {
+text-indent: -9999px;
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+padding-right: 60%;
+background-image: url('images/award.png');
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 10%;
+}
+
+#best-donut {
+padding-left: 59%;
+
+
+/* News & Events */
+
+#articles {
+
+}
+
+#feature-image {
+
+}
+
+#news-events article {
+position: absolute;
+top: 10px;
+left: 10px; 
+}
+
+#news-events article.news {
+
+}
+
+#news-events article.event {
+
+}
+
+#news-events header time {
+
+}
+
+#news-events section.excerpt {
+
+}
+
+#news-events footer {
+
+}
+
+
+/* Footer */
+
+footer.main {
+background-image:url('images/bg-tile-brown.gif'
+);
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+
+}
+
+#uncopyright {
+
+}
+
+#credits {
+
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+

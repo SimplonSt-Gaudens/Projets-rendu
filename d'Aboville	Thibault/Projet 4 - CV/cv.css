@@ -1,0 +1,148 @@
+.body{
+  background-color: red;
+  width: 1000px;
+  border: 10px black solid;
+}
+
+.page{
+  width: 900px;
+  margin: auto;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.Info_perso {                    /* aligne texte avec la photo*/
+  line-height: 10px;
+  margin-top: 30px;
+  width: 250px;
+  margin-left: 200px;
+}
+
+.photo {
+margin-top: -100px;
+width: 147px;
+height: 200px;
+
+}
+
+.linkedin {
+  float: right;
+  padding-top: -20px;
+}
+
+.viadeo {
+  float: right;
+  padding-top: -40px;
+}
+
+.Adresse{
+  padding-left: 10px;
+  margin-left: 150px;
+}
+
+
+body h2{
+  color: #2E9AFE;
+}
+
+body h3{
+  color: #2E9AFE;
+}
+
+.Adresse, .Age, .Telephone, .Mail{
+  display: inline-block;
+  color: grey;
+  margin-top: -300px;
+
+}
+
+.Age, .Telephone, .Mail {
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+em {
+  color: black;
+}
+
+.Competences{
+  height:1250px;
+  width: 200px;
+  background-color: #D3D3D3;
+
+}
+
+.Competences p{
+  color: blue;
+
+}
+
+.Experience{
+  float: right;
+  height: 1360px;
+  width: 600px;
+  margin-top: -1270px;
+}
+
+.Ville{
+  color: blue;
+  float: right;
+  margin-top: -35px;
+}
+
+.Experience p em{
+  color: blue;
+}
+
+
+
+.Contrats{
+  font-style: italic;
+}
+
+.Diplome {
+  float: right;
+  height: 150px;
+  width: 600px;
+  margin-top: -75px;
+
+}
+
+.Divers{
+  height: 250px;
+  width: 200px;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.Ville2{
+  color: blue;
+  float: right;
+  margin-top: 10px;
+}
+
+.ordi{
+  width: 51px;
+  height: 36px;
+  margin-top: -190px;
+  margin-left: -35px;
+}
+
+.voiture{
+  width: 43px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: -35px;
+}
+
+.pouce{
+  width: 47px;
+  height: 37px;
+  margin-top: 20px;
+  margin-left: -35px;
+}
+
+em a {
+  text-decoration: none;
+}/

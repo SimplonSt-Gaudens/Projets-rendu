@@ -1,0 +1,52 @@
+/* Vos customisations des classes de Bootstrap */
+
+
+.navbar {
+	background-color: black;
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+.container-fixed{
+	vertical-align: middle;
+	float: left;
+	padding-top: 15px;
+	
+}
+.container{
+	padding-top: 25px;
+}
+
+.home{
+	background-image: url('../images/hero-image.jpg');
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+.container{
+	text-align: center;
+}
+.who h2, red{
+	color: #E74C3C;
+}
+.get-involved h3, red{
+	color: #E74C3C;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}

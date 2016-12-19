@@ -1,0 +1,58 @@
+/* exercice css101 nemo : jef brunet */
+
+/*  mise en couleur du fond de la page*/
+body
+{
+	background-color: #B0B0B0;
+}
+
+
+	/* titre h1 mise en couleur bleu  centrage  ajout encadrement bleu ajout largeur 75% pour s'aligner a l'image hauteur 50px padding 30px (a vue de nez)*/
+
+h1
+{ 
+	color: blue;
+	text-align: center;
+	border-style: solid;
+	border-color: blue;
+	border-width: 3px;
+	width: 75%;
+	height: 50px;
+	padding: 30px;
+	
+ }
+
+
+/*  titre h2 mis en rouge et centrage largeur 80% pour s'aligner a l'image */
+
+h2
+{  
+color: red;
+text-align: center;
+width: 80%;
+ }
+
+
+/*  image redimension  */
+
+img
+{
+width: 80%;
+height: auto;
+}
+
+
+/*  dimension du texte 22px */
+p
+{
+
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+

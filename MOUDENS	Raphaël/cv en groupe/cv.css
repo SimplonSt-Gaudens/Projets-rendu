@@ -1,0 +1,30 @@
+body{
+	margin: 0px; 
+	padding: 0px;
+	background-color: DeepSkyBlue;
+	font-family: Georgia, serif;
+}
+
+.zonetext{
+	border-radius:20px;
+	background:white;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: Georgia,serif;
+	font-style: italic;
+	border:1px solid black;
+	margin:40px;
+}
+h2{
+	font-family: georgia, serif;
+	font-style: normal;
+
+
+}
+.photo{
+	display: none;
+	text-align: center;
+}

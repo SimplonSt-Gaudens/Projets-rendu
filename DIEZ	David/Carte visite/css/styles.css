@@ -1,0 +1,117 @@
+/* Définition des polices */
+@font-face {
+  font-family: 'comic_book';
+  src: url('../fonts/comic_book-webfont.woff2') format('woff2'),
+  url('../fonts/comic_book-webfont.woff') format('woff'),
+  url('../fonts/comic_book-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* général */
+body {
+	background-image: url('../images/ring-1787733__340.jpg');
+	-webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: relative;
+
+}
+
+li {
+  list-style-type: none;
+  margin:20px auto;
+}
+
+a {
+  color:black;
+
+}
+
+.identite {
+  border-left: 2px solid #BF55EC;
+  border-top: 2px solid #BF55EC;
+  font-family: 'comic_book', Arial, serif;
+  font-weight: bold;
+  font-size: 28px;
+  opacity:0;
+  position: absolute;    
+  text-align: left; 
+  color: white;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;  
+  top:-200px;
+  right:200px;
+  width: 400px;
+  height: 200px;
+  border-radius: 100px 0px;
+  background: linear-gradient( to left, #f21818, #14a1cc);
+
+}
+
+.coordonnees {
+  border-right: 2px solid #BF55EC;
+  border-top: 2px solid #BF55EC;
+  font-family: 'comic_book', Arial, serif;
+  font-size: 22px;
+  opacity:0;
+  position: absolute;    
+  text-align: left;
+  color: white;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;  
+  bottom: -100px;
+  right:200px;
+  width: 400px;
+  height: 200px;
+  border-radius: 0px 100px;
+  background: linear-gradient( to right, #f21818, #14a1cc);
+
+}
+
+.bouton {   
+  left:-85px;
+  top:280px; 
+  width: 140px;
+  height: 140px;
+  position:relative;
+  margin:1em auto 50px;  
+  border-radius:100px;  
+  background-image: url('../images/face-wink-3.png');
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+
+}
+
+.bouton:hover {   
+  left:-85px;
+  top:280px; 
+  width: 140px;
+  height: 140px;
+  position:relative;
+  margin:1em auto 50px;  
+  border-radius:100px;
+  opacity: 0.6;
+
+}
+
+.bouton:hover .identite {
+  opacity:1;
+}
+
+.bouton:hover .coordonnees {
+  opacity:1;
+}
+
+
+

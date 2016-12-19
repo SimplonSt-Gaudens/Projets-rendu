@@ -1,0 +1,14 @@
+/*content: url('../images/logo.png');
+   content: url('') n'affiche pas l'images du logo*
+   no-repeat top left;(insertion logo dans header)*/
+   /*background: url('../images/logo.png') 
+   background-repeat: no-repeat;
+   display: inline;
+   text-indent: -9999px;
+   height: 141px;
+   width: 259px;*/
+   text-indent: -9999px;
+   display: inlin flex;
+   backgroun-position:center;
+   width:300px;
+   heigth:150px; 

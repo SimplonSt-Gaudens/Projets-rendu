@@ -1,0 +1,23 @@
+body {
+
+	background-color:#B0B0B0;
+}
+
+header {
+	color: blue;
+	border: 2px solid blue;
+	text-align: center;
+}
+
+.red {
+	color: red;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+font-size: 22px;
+}

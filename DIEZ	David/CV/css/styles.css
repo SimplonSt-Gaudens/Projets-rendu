@@ -1,0 +1,403 @@
+/* Définition des polices */
+@font-face {
+  font-family: 'action_of_the_time_new';
+  src: url('../fonts/action_of_the_time_new-webfont.woff2') format('woff2'),
+  url('../fonts/action_of_the_time_new-webfont.woff') format('woff'),
+  url('../fonts/action_of_the_time_new-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'basicscratch';
+  src: url('../fonts/basicscratch-webfont.woff2') format('woff2'),
+  url('../fonts/basicscratch-webfont.woff') format('woff'),
+  url('../fonts/basicscratch-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'decibel';
+  src: url('../fonts/decibel_2-webfont.woff2') format('woff2'),
+  url('../fonts/decibel_2-webfont.woff') format('woff'),
+  url('../fonts/decibel_2-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'jelly_crazies';
+  src: url('../fonts/jelly_crazies-webfont.woff2') format('woff2'),
+  url('../fonts/jelly_crazies-webfont.woff') format('woff'),
+  url('../fonts/jelly_crazies-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'pulse_sans_virgin';
+  src: url('../fonts/pulse_virgin-webfont.woff2') format('woff2'),
+  url('../fonts/pulse_virgin-webfont.woff') format('woff'),
+  url('../fonts/pulse_virgin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'simple_myopia';
+  src: url('../fonts/simple_myopia-webfont.woff2') format('woff2'),
+  url('../fonts/simple_myopia-webfont.woff') format('woff'),
+  url('../fonts/simple_myopia-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* général */
+body {
+	background-color: black;
+	-webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  box-shadow: 15px 15px 15px gray inset;
+  border-radius: 70px 0px;
+  margin:auto;
+
+}
+
+header {	
+	text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 50px;
+  margin-bottom: 30px;
+
+}
+
+#photo {
+	background-image: url('../images/identite_david_mini.jpg');
+	background-repeat: no-repeat;
+  background-size: 90%;
+  width: 150px;
+  height: 150px;
+  margin-top: 90px;
+  text-align: center;
+  position: relative;
+  padding:20px 20px 50px 10px;
+  border:5px solid #C91F2C;
+  border-radius:200px;
+
+}
+
+#photo:before {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:150px;
+  left:-60px;
+  width:40px;
+  height:40px;
+  border:5px solid #C91F2C;
+  background:#fff;
+  border-radius:50px;
+  display:block;
+}
+
+#photo:after {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:140px;
+  left:-25px;
+  width:20px;
+  height:20px;
+  border:5px solid #C91F2C;
+  background:#fff;
+  border-radius:25px;
+  display:block;
+
+}
+
+#coordonnees {
+	font-family: 'basicscratch', Arial, serif;
+  width: 200px;
+  height: 100px;
+  margin-top: 50px;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 18px;
+  position:relative;
+  padding:10px 20px 50px 30px;
+  border:5px solid #c81e2b;
+  background:#fff;
+  border-radius:200px;
+
+}
+
+#coordonnees:before {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:100px;
+  right:-35px;
+  width:40px;
+  height:40px;
+  border:5px solid #f3961c;
+  background:#fff;
+  border-radius:50px;
+  display:block;
+}
+
+#coordonnees:after {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:130px;
+  right:-50px;
+  width:20px;
+  height:20px;
+  border:5px solid #f3961c;
+  background:#fff;
+  border-radius:25px;
+  display:block;
+}
+
+
+#identite	{    
+	font-family: 'simple_myopia', Arial, serif;
+  width: 300px;
+  height: 10px;
+  font-size: 50px;
+  text-align: center;
+  margin-top:-20px;
+  position:relative;
+  padding:20px 30px 50px 50px;
+  border:5px solid #f3961c;
+  background:#fff;
+  border-radius:500px 300px;
+
+}
+
+#metier {    
+	font-family: 'pulse_sans_virgin', Arial, serif;
+  width: 290px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  position:relative;
+  padding:10px 40px 50px 30px;
+  border:5px solid #5a8f00;
+  background:#fff;
+  border-radius:300px 500px;
+
+}
+
+li {
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.competences {
+  width: 100%;
+  height: 100px;
+  display:inline-flex;
+  margin:1.2em auto;
+
+}
+
+#titre_competences {
+  border: 3px solid #f9d835;
+  position:relative;
+  text-transform: uppercase;
+  width: 600px;
+  color:#000;
+  background:#f3961c;
+  border-radius:50px;
+  padding-top: 15px;
+
+}
+
+#liste_competences {
+  border: 3px solid #f9d835;
+  font-family: 'action_of_the_time_new', Arial, serif;
+  position:relative;
+  font-size: 18px;
+  width: 100%;
+  color:#000;
+  background:#f3961c;
+  border-radius:50px;
+  text-align: center;
+
+}
+
+.formation {
+  width: 100%;
+  height: 100px;
+  display:inline-flex;
+  margin:1.2em auto;
+
+}
+
+#titre_formation {
+  border: 3px solid #2e88c4;
+  position:relative;
+  text-transform: uppercase;
+  width: 600px;
+  color:#000;
+  background:#075698;
+  border-radius:50px;
+  padding-top: 15px;
+
+}
+
+#liste_formation {
+  border: 3px solid #2e88c4;
+  font-family: 'action_of_the_time_new', Arial, serif;
+  position:relative;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  color:#000;
+  background:#075698;
+  border-radius:50px;
+
+}
+
+.table {
+  width: 100%;
+  height: 200px;
+  display:inline-flex;
+  margin:1.2em auto;
+  color: white;
+
+}
+
+#titre_table {
+  border: 3px solid #b8db29;
+  position:relative;
+  text-transform: uppercase;
+  width: 600px;
+  height: 100px;
+  color:#000;
+  background:#5a8f00;
+  border-radius:50px;
+  padding-top: 0px;
+
+}
+
+#liste_table {
+  border: 3px solid #b8db29;
+  font-family: 'action_of_the_time_new', Arial, serif;
+  position:relative;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  height: 200px;
+  color:#000;
+  background:#5a8f00;
+  border-radius:50px;
+
+}
+
+#titre_colonne {
+  font-family: 'decibel', Arial, serif;
+  position:relative;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+
+.qualites {
+  width: 100%;
+  height: 100px;
+  display:inline-flex;
+  margin:1.2em auto;
+
+}
+
+#titre_qualites {
+  border: 3px solid #f04349;
+  position:relative;
+  text-transform: uppercase;
+  width: 600px;
+  color:#000;
+  background:#c81e2b;
+  border-radius:50px;
+  padding-top: 15px;
+
+}
+
+#liste_qualites {
+  border: 3px solid #f04349;
+  font-family: 'action_of_the_time_new', Arial, serif;
+  position:relative;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  color:#000;
+  background:#c81e2b;
+  border-radius:50px;
+
+}
+
+.centres_interet {
+  width: 100%;
+  height: 100px;
+  display:inline-flex;
+  margin:1.2em auto;
+
+}
+
+#titre_interet {
+  border: 3px solid pink;
+  position:relative;
+  text-transform: uppercase;
+  width: 600px;
+  color:#000;
+  background:#b513af;
+  border-radius:50px;
+  padding-top: 15px;
+
+}
+
+#liste_interet {
+  border: 3px solid pink;
+  font-family: 'action_of_the_time_new', Arial, serif;
+  position:relative;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  color:#000;
+  background:#b513af;
+  border-radius:50px;
+
+}
+
+h3 {
+	font-family: 'jelly_crazies', Arial, serif;
+	text-align: center;
+  font-size: 16px;
+  text-shadow: 3px 3px 3px white;
+
+}
+
+td {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top-right-radius: 20px;
+  text-align: center;
+  padding-left: 20px;
+  line-height: 30px;
+  width: 260px;
+
+}

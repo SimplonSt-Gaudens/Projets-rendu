@@ -1,0 +1,19 @@
+/* général */
+
+
+body {
+	background-image: url(images/tourbi1.jpg);
+	background-repeat: no-repeat;
+	background-size: 20% 202px;
+	background-position: center;
+	overflow: hidden;
+	margin: 25% 40%;
+	border: 1px solid black;
+	font-family: monospace;
+	padding: auto;
+	text-align: center;
+}
+
+a:hover {
+	color: #C0EAF2;
+}

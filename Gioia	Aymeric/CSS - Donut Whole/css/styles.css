@@ -1,0 +1,231 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+   /* General */
+
+   body {
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizelegibility;
+      font-family: open sans;
+      background-image: url("../images/bg-tile.gif");
+      background-repeat: repeat;
+      color: #4b2707;
+
+   }
+
+   .container {
+
+
+   }
+
+
+   /* Typography */
+
+   h1, h2 {
+      font-family: Love Ya Like A Sister;
+   }
+
+   h1 {
+      color: #d17f38;
+      text-align: center;
+      background: url("../images/header-divider.png") bottom center no-repeat;
+      padding: 0 0 20px;
+   }
+
+   h1 em {
+      color: #4b2707;
+   }
+
+   h2 {
+
+   }
+
+   h3 {
+
+   }
+
+   p.lead {
+   }
+
+   p {
+      color: #4b2707;
+   }
+
+   a:link, a:visited {
+
+   }
+
+   a:hover {
+
+   }
+
+   hr {
+
+   }
+
+
+   /* Header */
+
+   header nav {
+
+   }
+
+   header nav ul {
+      list-style-type: none;
+      margin: 30px auto;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 140px;
+   }
+
+   header nav ul li {
+
+      display: inline-block;
+      padding: 10px 20px;
+
+   }
+
+   header nav ul li a {
+      text-decoration: none;
+      color: #d17f38;
+      font-weight: bold;
+
+
+   }
+
+   header nav ul li a:hover {
+
+   }
+
+   header nav ul li#logo a {
+      display: block;
+      background-image: url("../images/logo.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 300px;
+      height: 150px;
+      text-indent: -9999px;
+   }
+
+   header nav ul li#logo a:hover {
+      background-image: url("../images/logo-hover.png");
+      text-indent: -9999px;
+
+   }
+
+
+   /* Hero */
+
+   #hero {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      text-align: center;
+      background-image: url(../images/bg-tile-yellow.gif);
+      position: relative;
+      z-index: 0;
+   }
+
+   #hero .container {
+
+   }
+   /*Ruban Large*/
+   #hero .large-ribbon {
+      content: url("../images/fresh-whole-ingredients.png");
+      position: relative;
+      z-index: 1;
+      text-indent: -9999px;
+      float: right;
+   }
+
+
+   /* The Whole Story */
+
+   #story-excerpt {
+
+   }
+
+   #best-donut {
+
+
+
+      /* News & Events */
+
+      #articles {
+
+      }
+
+      #feature-image {
+
+      }
+
+      #news-events article {
+
+      }
+
+      #news-events article.news {
+
+      }
+
+      #news-events article.event {
+
+      }
+
+      #news-events header time {
+
+      }
+
+      #news-events section.excerpt {
+
+      }
+
+      #news-events footer {
+
+      }
+
+
+      /* Footer */
+
+      footer.main {
+
+      }
+
+      footer.main a:hover {
+
+      }
+
+      #uncopyright, #credits {
+
+      }
+
+      #uncopyright {
+
+      }
+
+      #credits {
+
+      }
+
+
+      /* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+      .clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: "";
+        clear: both;
+        height: 0;
+     }
+     * html .group             { zoom: 1; } /* IE6 */
+     *:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+

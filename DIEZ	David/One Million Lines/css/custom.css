@@ -1,0 +1,215 @@
+/* Vos customisations des classes de Bootstrap */
+
+body {
+	margin: 0;
+	font-family: 'Arvo';
+
+}
+
+nav {
+	height: 50px;
+	width: 100%;
+	display: inline-flex;
+	background-color: #232829;
+	color:white;
+	justify-content: space-around;
+
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 20px;	
+
+}
+
+#title {
+	background-image: url('../images/top-logo.png');
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 200px;
+	height:50%;
+	margin-top: 25%;
+
+}
+
+#who_get {
+	height:50%;
+	margin-top: 25%;
+	font-size: 10px;
+	color: #e74c3c;
+
+}
+
+.fond {
+	height: 515px;
+	background-image: url('../images/hero-image.jpg');
+	text-align: center;
+	color: white;
+	margin: auto;
+
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 0px;
+	margin-top: 60px;
+}
+
+article {
+	width: 62%;
+	height: 20%;
+	overflow: auto;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 14px;
+
+}
+
+#learn_more .btn {
+	margin: auto;
+	height:50px;
+	width: 170px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: #e74c3c;
+	margin-top: 30px;
+
+}
+
+h3 {
+	color:black;
+}
+
+#code {
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/code.png');
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 20px;
+	background-size: 75%;
+	background-position: center;
+
+}
+
+#logo_academy {
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	margin-top: 50px;
+	background-image: url('../images/academy-brand-med.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#who {
+	font-size: 50px;
+	color: #e74c3c;
+	margin: auto;
+	text-align: center;
+
+}
+
+hr {
+	border-color: #e74c3c;
+	width: 12%;
+}
+
+p {
+	width: 68%;
+	height: 20%;
+	overflow: auto;
+	margin: auto;
+	color:black;
+	font-size: 14px;
+
+}
+
+em {
+	color:#e74c3c;
+	font-style: normal;
+}
+
+#get-involved {
+	color: black;
+	margin: auto;
+	margin-top: 40px;
+	background-color: #E3E3E3;
+	height: 400px;
+	width: 100%;
+	text-align: center;
+
+}
+
+h2 {
+	color: #e74c3c;
+}
+
+h4 {
+	color: #e74c3c;
+	font-size: 26px;
+}
+
+.row article {
+	font-size: 18px;
+	
+}
+
+aside .btn {
+	color:#e74c3c;
+
+}
+
+aside {
+	padding-top: 10px;
+}
+
+
+footer {
+	background-color: #e74c3c;
+	padding-top: 100px;
+	
+	
+}
+
+#logo_bottom {
+	background-image: url('../images/one-million-bottom-brand.png');
+	background-repeat: no-repeat;
+	background-position: left;	
+	height: 100px;
+}
+
+a.jumbotron {
+	position:fixed;
+}
+
+.fa-arrow-circle-o-up {
+	font-size: 200%;
+	padding-left: 50%;
+	padding-right: 50%;
+}
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+	.navbar-right .dropdown-menu {
+		right: 0;
+		left: auto;
+	}
+	.navbar-right .dropdown-menu-left {
+		right: auto;
+		left: 0;
+	}
+
+}

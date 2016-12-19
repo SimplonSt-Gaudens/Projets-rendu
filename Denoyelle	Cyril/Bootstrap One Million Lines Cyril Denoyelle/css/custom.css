@@ -1,0 +1,139 @@
+/* Vos customisations des classes de Bootstrap */
+
+
+/* Général */
+img {
+
+}
+
+
+ {
+	border: 1px solid black;
+}
+
+
+h2 {
+	font-family: 'Arvo';
+	font-size: 30px;
+
+}
+
+
+/* Nav */
+
+
+nav {
+	color: #fff;
+	font-family: 'Arvo';
+}
+
+
+#top-logo {
+	vertical-align: middle;
+	float: left;
+	padding-top: 15px
+}
+
+.navbar {
+	margin: auto;
+}
+
+/* Home */
+
+
+#home {
+	color: #fff;
+	background-image: url(../images/hero-image.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+}
+
+#code-png {
+	padding-top: 20px
+}
+
+
+#learn-more {
+	font-size: 35px;
+}
+
+
+/* Who */
+
+#who p {
+	font-size: 21px;
+}
+
+
+#who {
+	color: #000;
+}
+
+
+#who h2, red{
+	color: #E74C3C;
+}
+
+
+#academy {
+
+}
+
+
+/* Get Involved */
+
+
+#get-involved {
+	color: #000;
+}
+
+#get-involved h3{
+	text-transform: uppercase;
+	font-family: 'Arvo';
+	font-size: 26px;
+	color: #E74C3C;
+	text-align: center;
+}
+
+
+#get-involved p{
+	text-align: center;
+}
+
+
+.fa {
+	left: initial;
+}
+
+/* back to top */
+
+
+#back-to-top {
+	position: fixed;
+	object-position: 0px -1200px;
+	
+}
+
+#back-to-top .fa {
+	right: initial;
+}
+
+
+/* Responsive Styling */
+
+
+@media (max-width: 1199px) {
+
+}
+
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+

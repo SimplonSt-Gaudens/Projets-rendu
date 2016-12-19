@@ -1,0 +1,32 @@
+body {
+	background-color : #B0B0B0;
+}
+
+p {
+	fontsize : 22px;
+}
+
+h1 {
+	color : #0000FF;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	border: 3px solid #0000FF;
+}
+
+.blue {
+	color : #FF0000;
+
+}
+
+/* '.blue' mais c'est rouge ?? */
+
+h2 {
+	text-align: center;
+}
+
+img {
+	width:100%;
+	position: relative;
+	margin: auto;
+	display: block;
+}

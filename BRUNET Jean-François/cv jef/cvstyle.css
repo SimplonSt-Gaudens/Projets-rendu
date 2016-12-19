@@ -1,0 +1,59 @@
+
+/* petit cv rapide pour rendre avant minuit */
+
+/* petits soucis pour mettre en ligne nom photo adresse il semble pas aps j'arrive a faire ce que je veux comme resultat manque juste le temps */
+
+body{
+	background-color: #D0F5A9;
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, serif;
+	
+}
+
+
+h1{
+	color: #FE9A2E;
+	text-align: center;
+	font-size: 40px;
+    font-family: "Comic Sans MS" , serif; 
+}
+
+h2{
+	text-align: center;
+	color: #2EFE2E;
+	border-width:3px;
+ 	border-style:dotted;
+ 	border-color:#FF4000;
+	font-family: fantasy;
+	font-size: 20px;
+	width: 20%;
+}
+
+.nom{
+	float: left;
+	font-size: 30px;
+	width: 40%;
+}
+
+}
+
+
+.photo{
+	
+	text-align: center;
+	clear: both;
+
+
+}
+
+
+
+.adresse{
+	font-size: 30px;
+	text-align: right;
+	float: left;
+	width: 100%;
+
+}
+	

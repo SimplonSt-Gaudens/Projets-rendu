@@ -1,0 +1,253 @@
+body {
+	background-image: url('../images/bckgr-desk.jpg');
+	border: solid, 3px, black;
+	background-size: cover;
+}
+
+.page { 
+	border: none;
+	background-image: url('../images/backgr-paper.png');
+	margin-left: 25%;
+	margin-top:3%;
+	margin-bottom:5%;
+	width:640px;
+	height:877px;
+	box-shadow: 5px 5px 12px 6px #212121;
+	transform: rotate(0deg);
+}
+
+.profile {
+	width:265px;
+	height:877px;
+	border: none;
+	background-color: #365E6B;
+	margin-top:-79px;
+	float:left;
+	border-radius: 0px 85px 0px 0px;
+}
+
+.experience {
+	width:350px;
+	height:489px;
+	border: 0px black solid;
+	float:right;
+	margin-right:10px;
+	margin-top:-25px;
+}
+
+.experience p {
+	font-size:10px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.experience #position {
+	font-weight:bold;
+	font-family: 'ubuntu', sans-serif;
+	color: #365E6B;
+	margin-bottom: -10px;
+	font-size:12px;
+}
+
+.experience #company {
+	font-weight:bold;
+	font-style:italic;
+	font-family: 'ubuntu', sans-serif;
+	color: #365E6B;
+	margin-bottom: -05px;
+	font-size: 10px;
+}
+
+.experience #description {
+	font-family: 'ubuntu', sans-serif;
+	color: #365E6B;
+	margin-bottom: -5px;
+	font-size:10px;
+}
+
+.training {
+	width:350px;
+	height:250px;
+	border: none;
+	float:right;
+	margin-right:10px;
+	margin-top:100px;
+}
+
+.training #diploma {
+	font-weight:bold;
+	font-family: 'ubuntu', sans-serif;
+	color: #365E6B;
+	margin-bottom: -10px;
+	font-size:11px;
+}
+
+.training #description {
+	font-family: 'ubuntu', sans-serif;
+	color: #365E6B;
+	margin-bottom: -5px;
+	font-size:10px;
+}
+
+#pres {
+	border: none;
+	margin-top: 210px;
+	line-height: 2px;
+	color:#f9f9f7;
+	font-size: 12px;
+	font-family: 'ubuntu', sans-serif;
+	text-align: center;
+}
+
+#pitch {
+	border: none;
+	color:lightgrey;
+	font-size: 12px;
+	font-family: 'ubuntu', sans-serif;
+	margin: 25px 30px -0px 30px;
+	font-style: italic;
+	text-align: center;
+}
+
+#soft-skills {
+	border: none;
+	margin-top: 30px;
+	color:lightgrey;
+	font-size: 10px;
+	font-family: 'ubuntu', sans-serif;
+	line-height: 12px;
+	margin: 0 15px -10px 15px;
+}
+
+#hard-skills {
+	border: none;
+	margin-top: 30px;
+	color:lightgrey;
+	font-size: 10px;
+	font-family: 'ubuntu', sans-serif;
+	line-height: 12px;
+	margin: 0 15px -10px 12px;
+}
+
+#interests {
+	border: none;
+	margin-top: 30px;
+	line-height: 2px;
+	color:lightgrey;
+	font-size: 10px;
+	font-family: 'ubuntu', sans-serif;
+	line-height: 12px;
+	margin: 0 15px -10px 15px;
+}
+
+#others {
+	border: none;
+	margin-top: 30px;
+	line-height: 2px;
+	color:lightgrey;
+	font-size: 10px;
+	font-family: 'ubuntu', sans-serif;
+	line-height: 15px;
+	margin: 0 15px -10px 15px;
+}
+
+
+#postit {
+	width:300px;
+	height:auto;
+	margin-top: 150px;
+	margin-left: -400px;
+	position: relative;
+  	filter: drop-shadow(5px -5px 10px #222);
+}
+
+#coffee {
+	width:300px;
+	height:auto;
+	margin-top: 150px;
+	margin-left: -400px;
+	position: absolute;
+  	filter: drop-shadow(-5px 10px 5px #222);
+}
+
+#phone {
+	width:250px;
+	height:auto;
+	margin-top: 500px;
+	margin-left: -260px;
+	position: absolute;
+  	filter: drop-shadow(-5px 10px 5px #222);
+  	transform: rotate(-15deg);
+}
+
+
+#photo {
+	border-radius: 160px;
+}
+
+h1 {
+	text-align:right;
+	padding-right:25px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:35px;
+	color:#365E6B;
+	padding-top:15px;
+}
+
+h2 {
+	font-size:20px;
+	color:#f9f9f7;
+	font-family: 'ubuntu', sans-serif;
+}
+
+h3 {
+	text-align: center;
+	font-size: 15px;
+	font-family: 'ubuntu', sans-serif;
+	color: #365E6B;
+	text-align: left;
+}
+
+h4 {
+	text-align: center;
+	font-size:12px;
+}
+
+img {
+	display:block;
+	float:left;
+	width:160px;
+ 	height:160px;
+ 	border:solid 5px
+ 	box-shadow:0px 0px 0px #16304c;
+ 	margin-left:52px;
+ 	margin-top: 25px;
+ 	position: absolute;
+}
+
+img#lkdin {
+	display:block;
+	float:left;
+	width:40px;
+	height:40px;
+	border-radius:150%;
+	border:solid 5px
+	box-shadow:0px 0px 0px #16304c;
+	margin-top:20px;
+	margin-left: 230px;
+	position: absolute;
+}
+
+hr {
+	border: 2px dashed #8c8b8b;
+	width: 175px;
+	margin-top: 25px;
+}
+
+hr.s2 {
+	border: 2px dashed #8c8b8b;
+	width: 175px;
+	margin-top: 10px;
+	margin-bottom:-7px;
+}
+
+

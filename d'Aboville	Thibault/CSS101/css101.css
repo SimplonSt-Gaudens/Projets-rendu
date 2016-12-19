@@ -1,0 +1,34 @@
+
+
+body {
+	background-color: #B0B0B0;
+}
+
+
+p {font-size: 22px;
+	font-family: Times;}
+
+
+h1 {
+	color: blueviolet;
+	text-align: center;
+	font-size: 40px; }
+
+h1 {border : solid blueviolet;}
+
+h2 {color: red;
+	text-align: center;
+	font-size: 28px}
+	
+img {
+	width: 1340px;
+	height: 400px;
+
+}
+
+table {
+	margin : 20px ;
+	
+	vertical-align:middle;
+	}
+

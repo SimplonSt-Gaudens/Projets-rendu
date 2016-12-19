@@ -1,0 +1,26 @@
+/* Vos customisations des classes de Bootstrap */
+#body{
+	padding-top: 50px;
+	
+	}
+#home{
+	background-image: url(../images/hero-image.jpg)
+}
+.img-responsive {
+ margin: 0 auto;}
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+background-image: url(screenshot-max1199.png)
+}
+
+@media (max-width: 991px) {
+background-image: url(screenshot-max991.png)
+}
+
+@media (max-width: 767px) {
+background-image: url(screenshot-max767.png)
+}

@@ -1,0 +1,28 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+nav ul li{
+   text-decoration: none;
+   float: left;
+   width: 100px;
+}
+
+nav ul{
+
+}
+
+
+

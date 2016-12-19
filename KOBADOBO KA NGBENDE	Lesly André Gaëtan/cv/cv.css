@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: DeepSkyBLue;
+	font-family: Georgia, serif;
+	
+}
+.zonetext{
+	border-radius:20px;
+	background:white;
+}
+.monposte{
+	
+}
+.compet{
+	float:right
+}
+.competence{
+	float:left;
+}
+.compet, .competence{
+	display: inline-block;
+	padding:20px;
+	border-radius:10px;
+	
+	border: 1px solis black;
+}
+.anneeformat, .format{
+	display: inline;
+	padding:20px;
+	border-radius:10px;
+	/*background:white;*/
+	/*border: 2px solid black;*/
+}
+/*.anneeformat{
+	float:left;
+}
+.format{
+	float:right
+}*/
+.nom{
+	float:left
+	
+}
+.adresse{
+	
+	float:right;
+}
+.photo{
+	/*display: inline;*/
+	text-align:center;
+	
+}
+.monposte{
+	text-align:center;
+	/*float: center;*/
+}
+.maphotoadresse{
+	text-align: center;
+	
+	
+	/*border: 1px solid black;*/
+	
+}
+.adresse, .nom{
+	display: inline-block;
+	padding:20px;
+	
+	font-size:10px;
+}	
+
+	/*order:1px solid red;*/
+
+	/*padding: 5px;*/
+	/*float: left;*/
+	/*width:25%;*/
+	/*text-align:center;*/
+	/*position: fixed;*/
