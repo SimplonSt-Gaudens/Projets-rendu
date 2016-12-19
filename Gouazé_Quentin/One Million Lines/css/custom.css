@@ -1,0 +1,103 @@
+/* Vos customisations des classes de Bootstrap */
+body{
+	padding-top:40px;
+}
+
+footer{
+	background-color:#FF282B;
+	padding-top:100px;
+	padding-bottom:40px;
+}
+
+hr{
+	border-top: 1px solid #FF282B;
+	width: 160px;
+	margin-top: 15px;
+}
+.jumbotron{
+	border:1px solid black;
+	background:url("../images/hero-image.jpg");
+	text-align:center;
+	color:white;
+}
+
+#get-involved{
+	background-color:#f5f5f5;
+}
+
+.btn-lg {
+	font-size:30px;
+}
+
+.content{
+	text-align:center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.content h2, .content h3{
+	color:#FF282B;
+	text-transform:uppercase;
+}
+
+.content h3 {
+	font-size:25px;
+}
+
+.content a {
+	color:#FF282B;
+}
+.content p {
+	font-size: 21px;
+	
+}
+
+.jumbotron h1{
+	margin-top:0px;
+	margin-bottom:50px;
+}
+
+.jumbotron p {
+	margin-bottom:50px;
+	padding: 0 50px;
+}
+
+#back-to-top{
+
+
+}
+
+#modal-video{
+	margin:auto;
+		height:400px;
+	width:400px;
+}
+#modal-content{
+	height:400px;
+	width:400px;
+}
+
+
+
+
+
+
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+	.jumbotron h1{
+		font-size:30px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
